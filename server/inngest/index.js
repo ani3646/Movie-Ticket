@@ -1,6 +1,6 @@
 
 import {Inngest} from "inngest";
-import User from "../models/user.js"; // ✅ your Mongoose model
+import User from "../models/User.js"; //  Mongoose model
 
 
 // Create a client to send and receive events
