@@ -28,10 +28,10 @@ const ListBookings = () => {
 <thead>
     <tr className="bg-red-400/20 text-left text-white">
     <th className="p-2 font-medium pl-5">User Name</th>
-    <th className="p-2 font-medium ">Movie Name</th>
-    <th className="p-2 font-medium ">Show Time</th>
-    <th className="p-2 font-medium ">Seats</th>
-    <th className="p-2 font-medium ">Amount</th>
+    <th className="p-2 font-medium pl-5">Movie Name</th>
+    <th className="p-2 font-medium pl-5">Show Time</th>
+    <th className="p-2 font-medium pl-5">Seats</th>
+    <th className="p-2 font-medium pl-5">Amount</th>
 
     </tr>
 </thead>

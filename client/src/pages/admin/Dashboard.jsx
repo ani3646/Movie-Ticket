@@ -65,7 +65,7 @@ const Dashboard = () => {
             <div className="flex items-center justify-between px-2">
             <p className="text-lg font-medium">{currency}{show.showPrice} </p>
             <p className="flex items-center gap-1 text-sm text-gray-400 mt-1 pr-1">
-            <StarIcon className="w-4 h-4 text-red-500 fill-primary" />
+            <StarIcon className="w-4 h-4 text-red-500 fill-red-500" />
             {show.movie.vote_average.toFixed(1)}
             </p>
             </div>

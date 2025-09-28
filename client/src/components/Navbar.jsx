@@ -36,7 +36,9 @@ const Navbar = () => {
     
 
     <div className='flex items-center gap-8'>
-    <SearchIcon className='mx-md:hidden w-6 h-6 cursor-pointer'/>
+    <SearchIcon className='mx-md:hidden w-6 h-6 cursor-pointer'
+      onClick={() => navigate("/movies")}
+    />
     {
       !user ? (
           <button onClick={openSignIn} className='px-4 py-1 sm:px-7 sm:py-2 bg-red-500 
